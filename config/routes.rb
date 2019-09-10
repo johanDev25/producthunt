@@ -1,7 +1,15 @@
 Rails.application.routes.draw do
-  resources :products
-  resources :users, only: [:new, :create]
   root 'products#index'
+
+  get 'login', to: 'sessions#new'
+
+  post 'login', to: 'sessions#create'
+
+  resources :users, only: [:new, :create]
+
+  resources :products
+  
+  
   
   #get '/products', to: 'products#index'
   #get '/products/new', to: 'products#new', as: 'new_product'
