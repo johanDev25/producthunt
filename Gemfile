@@ -23,6 +23,12 @@ gem 'jbuilder', '~> 2.7'
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'jquery-rails'
+
+gem 'gravatar-ultimate'
+
+gem 'xmlrpc'
+
+gem 'bootstrap', '~> 4.3.1'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
