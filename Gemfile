@@ -29,6 +29,8 @@ gem 'gravatar-ultimate'
 gem 'xmlrpc'
 
 gem 'bootstrap', '~> 4.3.1'
+
+gem 'annotate'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
