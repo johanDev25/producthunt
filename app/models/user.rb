@@ -12,6 +12,10 @@
 #
 
 class User < ApplicationRecord
+    has_many :comments
+    has_many :products
+
+
 	validates :email, uniqueness: true, format: { with: /@/,
     message: "Debe contener un arroba" }
 	validates :password_digest, presence: true, on: :create
