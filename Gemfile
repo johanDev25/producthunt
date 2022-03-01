@@ -32,7 +32,7 @@ gem 'bootstrap', '~> 4.3.1'
 
 gem 'annotate'
 
-gem "image_processing", "~> 1.2"
+gem "image_processing", "~> 1.12"
 
 gem "mini_magick", "~> 4.8"
 # Use Active Storage variant
